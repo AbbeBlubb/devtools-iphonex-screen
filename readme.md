@@ -28,6 +28,7 @@ function iPhoneX() {
             img.src = '/xg/kata/en/img/iPhoneX.png'
             document.body.insertBefore(img,document.body.children[0]);
         }
+        
     } else if (document.getElementById('iphone_layout')) {
         document.body.removeChild(document.getElementById('iphone_layout'));
     }
